@@ -1,0 +1,538 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"po",
+				"post_delete"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"Pos",
+				"PostAdmin"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"bo",
+				"border-top"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pr",
+				"promo"
+			],
+			[
+				"promo",
+				"promo_container"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"si",
+				"simonPic"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"list",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/posts/models.py",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/test_project/settings.py",
+			"settings":
+			{
+				"buffer_size": 3232,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "from django.contrib import admin\n\n# Register your models here.\n\nfrom .models import Post\n\nclass PostModelAdmin(admin.ModelAdmin):\n	list_display = [\"title\", \"updated\", \"timestamp\"]\n	list_display_links = [\"updated\"]\n	list_editable = [\"title\"]\n	list_filter = [\"updated\", \"timestamp\"]\n\n	search_fields = [\"title\", \"content\"]\n	class Meta:\n		model = Post\n\nadmin.site.register(Post, PostModelAdmin)",
+			"file": "src/posts/admin.py",
+			"file_size": 395,
+			"file_write_time": 130970006612952346,
+			"settings":
+			{
+				"buffer_size": 390,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Create -- POST-- Make it\nRetrive -- GET --List/Search\nUpdate -- PUT/PATCH -- Edit\nDelete -- DELETE",
+			"file": "src/crud.md",
+			"file_size": 0,
+			"file_write_time": 130970010165485539,
+			"settings":
+			{
+				"buffer_size": 98,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/posts/views.py",
+			"settings":
+			{
+				"buffer_size": 474,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/test_project/urls.py",
+			"settings":
+			{
+				"buffer_size": 821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/posts/urls.py",
+			"settings":
+			{
+				"buffer_size": 346,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 360.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/maria/Desktop/venv/src/templates/index.html",
+		"/C/Users/maria/Desktop/venv/Lib/site-packages/django/contrib/admin/templates/index.html",
+		"/C/Users/maria/Desktop/myPage/index.html",
+		"/C/Users/maria/Desktop/myPage/css/screen_styles.css",
+		"/C/Users/maria/Desktop/myPage/css/screen_layout_small.css",
+		"/C/Users/maria/Desktop/myPage/css/screen_layout_medium.css",
+		"/C/Users/maria/Desktop/myPage/css/screen_layout_large.css",
+		"/C/Users/maria/Desktop/Exercise Files/4 - Snippets/A-Placeholder-Text.html",
+		"/C/Users/maria/Desktop/Exercise Files/4 - Snippets/B-Google-HTML5-Shiv.html",
+		"/C/Users/maria/Desktop/var main = function(){.js",
+		"/C/Users/maria/Desktop/New folder/Forth-site-jQuery/styles/main.css",
+		"/C/Users/maria/Desktop/New folder/Forth-site-jQuery/index.html",
+		"/C/Users/maria/Desktop/New folder/second-site/style/main.css",
+		"/C/Users/maria/Desktop/New folder/second-site/Bootstrap.html",
+		"/C/Users/maria/Desktop/New folder/first-site/styles/main.css",
+		"/C/Users/maria/Desktop/New folder/third-site(JS-Events)/index.html",
+		"/C/Users/maria/Desktop/New folder/third-site(JS-Events)/scripts/pic.js",
+		"/C/Users/maria/Desktop/New folder/third-site(JS-Events)/scripts/main.js",
+		"/C/Users/maria/Desktop/New folder/third-site(JS-Events)/styles/main.css",
+		"/C/Users/maria/Desktop/New folder/third-site(JS-Events)/scritps/main.js",
+		"/C/Users/maria/Desktop/New folder/first-site/learnCode.html",
+		"/C/Users/maria/Desktop/New folder/second-site/script/main.js",
+		"/C/Users/maria/Desktop/New folder/Bootstrap.html",
+		"/C/Users/maria/Desktop/New folder/styles/main.css",
+		"/C/Users/maria/Desktop/New folder/learnCode.html",
+		"/C/Users/maria/Desktop/New folder/style.css",
+		"/C/Users/maria/Desktop/learnCode.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"post_delete",
+			"create",
+			"posts_home",
+			"1",
+			"picId",
+			"simon",
+			"simonPic",
+			"simon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/posts/models.py",
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/test_project/settings.py",
+					"settings":
+					{
+						"buffer_size": 3232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1578,
+								1578
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/posts/admin.py",
+					"settings":
+					{
+						"buffer_size": 390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								347,
+								347
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/crud.md",
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/posts/views.py",
+					"settings":
+					{
+						"buffer_size": 474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/test_project/urls.py",
+					"settings":
+					{
+						"buffer_size": 821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								792,
+								792
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/posts/urls.py",
+					"settings":
+					{
+						"buffer_size": 346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 144.0,
+	"status_bar_visible": true
+}
